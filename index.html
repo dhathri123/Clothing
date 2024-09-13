@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Clothing E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Colorful Clothing</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product" data-id="1">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20230626/oL1p/6499791aa9b42d15c9f2383a/-1117Wx1400H-469517174-white-MODEL.jpg" alt="Colorful Dress">
+                <h2>Causual Shirt</h2>
+                <p>$29.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="https://lolaandtheboys.com/cdn/shop/products/jackets-bombers-womens-rainbow-pearl-denim-jacket-lola-the-boys-29500360228966_800x.jpg?v=1675389983" alt="Stylish Jacket">
+                <h2>Stylish Jacket</h2>
+                <p>$45.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3">
+                <img src="https://www.stylestone.in/cdn/shop/products/3952DreamRainbow_2.jpg?v=1658822131" alt="Casual Shirt">
+                <h2>Colourful Frock</h2>
+                <p>$20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="cart" id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will appear here -->
+            </ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
